@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"a546cb82-9383-48d9-9ea1-cebf23a3f3bd\"\r\n
+    \   },\r\n    \"rs\": {\r\n      \"key\": \"Respawn_Rate\",\r\n      \"type\":
+    \"float\",\r\n      \"value\": 3.0\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"a546cb82-9383-48d9-9ea1-cebf23a3f3bd\"\r\n
+    \   },\r\n    \"rs\": {\r\n      \"key\": \"Respawn_Rate\",\r\n      \"type\":
+    \"float\",\r\n      \"value\": 3.0\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"e902393b-ec55-46f3-964f-681419fc6178\",\r\n
+    \   \"name\": \"Test\",\r\n    \"id\": \"559ebec1-f00d-4c1f-98e8-1a24459e06b9\",\r\n
+    \   \"createdAt\": \"2021-05-25T15:27:27Z\",\r\n    \"updatedAt\": \"2021-05-25T18:41:26Z\",\r\n
+    \   \"isDefault\": false\r\n  },\r\n  {\r\n    \"projectId\": \"e902393b-ec55-46f3-964f-681419fc6178\",\r\n
+    \   \"name\": \"Remote Test\",\r\n    \"id\": \"657df1b4-d980-42a6-8640-1f688d4ee128\",\r\n
+    \   \"createdAt\": \"2021-05-25T15:48:12Z\",\r\n    \"updatedAt\": \"2021-05-25T18:41:26Z\",\r\n
+    \   \"isDefault\": true\r\n  }\r\n]"
+  _rulesList: "[\r\n  {\r\n    \"id\": \"5d5b2123-6b6f-4193-ab96-4418b647e929\",\r\n
+    \   \"name\": \"Default\",\r\n    \"type\": \"segmentation\",\r\n    \"condition\":
+    \"true\",\r\n    \"rolloutPercentage\": 100,\r\n    \"startDate\": \"\",\r\n    \"endDate\":
+    \"\",\r\n    \"priority\": 1000,\r\n    \"enabled\": true,\r\n    \"value\": [\r\n
+    \     {\r\n        \"metadata\": {\r\n          \"entityId\": \"a546cb82-9383-48d9-9ea1-cebf23a3f3bd\"\r\n
+    \       },\r\n        \"rs\": {\r\n          \"key\": \"Respawn_Rate\",\r\n          \"type\":
+    \"float\",\r\n          \"schemaId\": null,\r\n          \"value\": 3.0\r\n        }\r\n
+    \     }\r\n    ]\r\n  }\r\n]"
+  _lastCachedRulesList: "[\r\n  {\r\n    \"projectId\": \"e902393b-ec55-46f3-964f-681419fc6178\",\r\n
+    \   \"environmentId\": \"657df1b4-d980-42a6-8640-1f688d4ee128\",\r\n    \"configId\":
+    \"c35c68da-c6c7-45c9-82bf-2a5856e65ae9\",\r\n    \"name\": \"Default\",\r\n    \"enabled\":
+    true,\r\n    \"condition\": \"true\",\r\n    \"rolloutPercentage\": 100,\r\n    \"value\":
+    [\r\n      {\r\n        \"metadata\": {\r\n          \"entityId\": \"a546cb82-9383-48d9-9ea1-cebf23a3f3bd\"\r\n
+    \       },\r\n        \"rs\": {\r\n          \"key\": \"Respawn_Rate\",\r\n          \"type\":
+    \"float\",\r\n          \"schemaId\": null,\r\n          \"value\": 3.0\r\n        }\r\n
+    \     }\r\n    ],\r\n    \"id\": \"5d5b2123-6b6f-4193-ab96-4418b647e929\",\r\n
+    \   \"priority\": 1000,\r\n    \"type\": \"segmentation\",\r\n    \"startDate\":
+    null,\r\n    \"endDate\": null,\r\n    \"metadata\": null,\r\n    \"audience\":
+    null,\r\n    \"kpi\": null,\r\n    \"createdAt\": \"2021-05-25T16:06:16Z\",\r\n
+    \   \"updatedAt\": \"2021-05-25T16:38:52Z\"\r\n  }\r\n]"
